@@ -1,7 +1,6 @@
 streamlit
 pandas
-plotly.express
-matplotlib.pyplot
+plotly
+matplotlib
 seaborn
-io
 numpy
