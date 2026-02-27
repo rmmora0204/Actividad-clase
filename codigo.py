@@ -69,7 +69,7 @@ def load_and_clean_data(file_path):
 
 # --- Carga de datos ---
 # Make sure the CSV file is accessible in the Colab environment
-file_path = '/content/Comparativo_de_delitos_de_alto_impacto_en_la_ciudad_de_Barranquilla_20260221.csv'
+file_path = 'Comparativo_de_delitos_de_alto_impacto_en_la_ciudad_de_Barranquilla_20260221.csv'
 try:
     df_delitos = load_and_clean_data(file_path)
     st.success("Datos cargados y procesados correctamente.")
